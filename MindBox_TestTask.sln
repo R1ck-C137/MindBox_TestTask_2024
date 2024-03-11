@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34622.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shepe", "Shepe.csproj", "{2B9014AC-25C2-479C-A313-8550C901AECD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "..\Tests\Tests.csproj", "{A3BFFA3D-A819-4A15-9D6B-3D0502ED425C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Элементы решения", "Элементы решения", "{3231B5B9-09C8-4736-BFA4-2AB2EFF0F2BA}"
+	ProjectSection(SolutionItems) = preProject
+		SQL\SQLQuery1.sql = SQL\SQLQuery1.sql
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2B9014AC-25C2-479C-A313-8550C901AECD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B9014AC-25C2-479C-A313-8550C901AECD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B9014AC-25C2-479C-A313-8550C901AECD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B9014AC-25C2-479C-A313-8550C901AECD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3BFFA3D-A819-4A15-9D6B-3D0502ED425C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3BFFA3D-A819-4A15-9D6B-3D0502ED425C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3BFFA3D-A819-4A15-9D6B-3D0502ED425C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3BFFA3D-A819-4A15-9D6B-3D0502ED425C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6CDA98DD-404D-4085-866D-6CFC2FD581B2}
+	EndGlobalSection
+EndGlobal
